@@ -1,0 +1,18 @@
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Data (Ignore the actual files, but keep the folder structure)
+data/raw/*.csv
+data/processed/*.csv
+data/processed/*.parquet
+
+# OS files
+.DS_Store
+Thumbs.db
